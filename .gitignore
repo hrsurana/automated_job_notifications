@@ -1,0 +1,5 @@
+node_modules/
+notified_jobs.json
+email-config.json
+.DS_Store
+*.log

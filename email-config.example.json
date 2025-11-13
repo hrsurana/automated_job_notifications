@@ -1,0 +1,8 @@
+{
+  "smtpHost": "smtp.gmail.com",
+  "smtpPort": 587,
+  "smtpUser": "your-email@gmail.com",
+  "smtpPass": "your-app-password",
+  "fromEmail": "your-email@gmail.com",
+  "toEmail": "recipient@example.com"
+}
