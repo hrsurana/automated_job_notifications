@@ -4,12 +4,12 @@ Automatically scrapes the [SimplifyJobs New-Grad-Positions](https://github.com/S
 
 ## Features
 
-- 🔍 Scrapes job postings from GitHub README
-- 🌍 Filters for **Remote** locations only
-- ⏰ Only shows positions posted within the last **2 days**
-- 📧 Email notifications with all remote jobs from the last 2 days
-- 💾 Tracks notified jobs to avoid duplicates
-- ⚡ Automatic scheduled checks (default: every alternate day at 9:00 AM Central Time)
+- Scrapes job postings from GitHub README
+- Filters for **Remote** locations only
+- Only shows positions posted within the last **2 days**
+- Email notifications with all remote jobs from the last 2 days
+- Tracks notified jobs to avoid duplicates
+- Automatic scheduled checks (default: every alternate day at 9:00 AM Central Time)
 
 ## Installation
 
@@ -191,13 +191,13 @@ The watcher uses Central Time (America/Chicago). If you're in a different timezo
 
 ### Console Output
 ```
-📧 Email Job Watcher Started!
+Email Job Watcher Started!
 Schedule: Every alternate day at 9:00 AM Central Time
 Sends email with all remote jobs posted in the last 2 days
 Press Ctrl+C to stop.
 
-⏰ Cron schedule: 0 9 */2 * *
-📅 Next run will be at the scheduled time.
+Cron schedule: 0 9 */2 * *
+Next run will be at the scheduled time.
 
 Running initial check...
 [11/13/2025, 9:00:00 PM] Starting job scrape...
@@ -223,13 +223,13 @@ Found 3 new jobs to notify
 
 ====================================
 
-📧 Sending email to recipient@example.com...
-✅ Email sent successfully! Message ID: <abc123@mail.gmail.com>
+Sending email to recipient@example.com...
+Email sent successfully! Message ID: <abc123@mail.gmail.com>
 ```
 
 ### Email Preview
 The email will include:
-- Subject: "🚀 12 New Remote Jobs - Last 2 Days"
+- Subject: "12 New Remote Jobs - Last 2 Days"
 - HTML-formatted job listings with:
   - Job title and company name
   - Location and posting age
