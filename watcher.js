@@ -16,13 +16,13 @@ async function checkForNewJobs() {
 }
 
 export function startWatcher(cronSchedule = '0 9 */2 * *') {
-  console.log('📧 Email Job Watcher Started!');
+  console.log('Email Job Watcher Started!');
   console.log('Schedule: Every alternate day at 9:00 AM Central Time');
   console.log('Sends email with all remote jobs posted in the last 2 days');
   console.log('Press Ctrl+C to stop.\n');
 
-  console.log(`⏰ Cron schedule: ${cronSchedule}`);
-  console.log(`📅 Next run will be at the scheduled time.\n`);
+  console.log(`Cron schedule: ${cronSchedule}`);
+  console.log(`Next run will be at the scheduled time.\n`);
 
   console.log('Running initial check...');
   checkForNewJobs();

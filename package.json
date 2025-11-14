@@ -9,12 +9,17 @@
     "watch": "node watcher.js",
     "test-email": "node -e \"import('./email-notifier.js').then(m => m.testEmailConfig())\""
   },
-  "keywords": ["scraper", "jobs", "email", "notifications"],
+  "keywords": [
+    "scraper",
+    "jobs",
+    "email",
+    "notifications"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^3.3.2",
     "node-cron": "^3.0.3",
-    "nodemailer": "^6.9.0"
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.10"
   }
 }

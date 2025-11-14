@@ -106,7 +106,7 @@ function formatJobsHTML(jobs) {
         </style>
       </head>
       <body>
-        <h1>🚀 Remote Job Opportunities - Last 2 Days</h1>
+        <h1>Remote Job Opportunities - Last 2 Days</h1>
         <div class="summary">
           <strong>Summary:</strong> Found ${jobs.length} new remote job${jobs.length === 1 ? '' : 's'} posted in the last 2 days.
         </div>

@@ -47,7 +47,7 @@ function isRemoteLocation(location) {
 function parseJobs(markdown) {
   const jobs = [];
 
-  const sectionMatch = markdown.match(/## Software Engineering New Grad Roles[\s\S]*?<tbody>([\s\S]*?)<\/tbody>/);
+  const sectionMatch = markdown.match(/## .*?Software Engineering New Grad Roles[\s\S]*?<tbody>([\s\S]*?)<\/tbody>/);
 
   if (!sectionMatch) {
     console.log('Could not find the job table');

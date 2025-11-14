@@ -1,12 +1,12 @@
 # Job Scraper - GitHub New Grad Remote Positions
 
-Automatically scrapes the [SimplifyJobs New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) repository and sends email notifications for remote positions posted within the last 2 days.
+Automatically scrapes the [SimplifyJobs New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) repository and sends email notifications.
 
 ## Features
 
 - Scrapes job postings from GitHub README
-- Filters for **Remote** locations only
-- Only shows positions posted within the last **2 days**
+- Filters for **Remote** locations only  -- edit as needed
+- Only shows positions posted within the last **2 days**  -- edit as needed
 - Email notifications with all remote jobs from the last 2 days
 - Tracks notified jobs to avoid duplicates
 - Automatic scheduled checks (default: every alternate day at 9:00 AM Central Time)

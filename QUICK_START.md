@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-## ⚡ Get Started in 3 Steps
+## Get Started in 3 Steps
 
 ### 1. Open Terminal and navigate to the project:
 ```bash
@@ -24,11 +24,11 @@ The scraper will:
 - Continue checking every 30 minutes
 - Keep running until you press `Ctrl+C`
 
-## 🔔 First Run
+## First Run
 
 On the first run, you'll receive notifications for all current remote jobs posted within 2 days. After that, you'll only get notified about NEW positions.
 
-## 📱 Testing Notifications
+## Testing Notifications
 
 To test if notifications work, you can:
 
@@ -39,24 +39,24 @@ rm notified_jobs.json
 
 2. Run the scraper again - you should see notifications!
 
-## 🎯 What Gets Notified
+## What Gets Notified
 
 Jobs that meet BOTH criteria:
-- ✅ Location contains "Remote" (case-insensitive)
-- ✅ Posted within last 2 days (0d, 1d, or 2d)
+- Location contains "Remote" (case-insensitive)
+- Posted within last 2 days (0d, 1d, or 2d)
 
-## 🛑 Stopping the Watcher
+## Stopping the Watcher
 
 Press `Ctrl+C` in the terminal to stop monitoring.
 
-## 💡 Tips
+## Tips
 
 - Keep the terminal window open while the watcher runs
 - If you close the terminal, the watcher stops
 - To run in the background, use: `nohup ./start.sh > output.log 2>&1 &`
 - Check `notified_jobs.json` to see which jobs you've been notified about
 
-## 🔧 Customize Check Frequency
+## Customize Check Frequency
 
 Edit the cron schedule in watcher.js or pass as argument:
 ```bash
@@ -67,7 +67,7 @@ node watcher.js "*/15 * * * *"
 node watcher.js "0 * * * *"
 ```
 
-## ❓ Troubleshooting
+## Troubleshooting
 
 **No notifications showing?**
 - Check macOS System Preferences → Notifications → Terminal
